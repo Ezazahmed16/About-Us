@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+.contactUs{
+    padding: 20px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+}
+.conatctUs-details{
+    color: white;
+    text-align: justify;
+}
+.conatctUs-details p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.hr{
+    width: 20px;
+    display: inline-block;
+    border: 1px #def0fd solid;
+}
+.contactUs-details--box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+
+}
+.phone-number, .email-id{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 0px;
+}
+.phone-number i, .email-id i{
+    background-color: #302E2F;
+    padding: 25px;
+    border: 1px black solid;
+    border-radius: 50%;
+    color: white;
+    position: relative;
+    top: -25px;
+}
+.sub-btn{
+    margin: 15px 0px;
+    background-color: #302E2F;
+    color: #fff;
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 20px;
+    width: 100%;
+}
+
+
+
+.contactUs-form{
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-radius: 25px;
+}
+.contactUs-form form input{
+    padding: 12px;
+    color: #302E2F;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin: 5px;
+    display: block;
+    width: 70%;
+}
+.name, .datetime{
+    display: flex;
+}
+.text{
+    height: 100px;
+}
